@@ -10,7 +10,7 @@ package AssignmentOnLE;
 	public class Question_3 {
 		public static void main(String[] args) {
 			Consumer<List<String>> printConsumer = t -> System.out.println(t);
-		    List<String> list = Arrays.asList("rajupalem", "Dandupalem", "kothhapalli", "kanapalli");
+		    List<String> list = Arrays.asList("black", "Dull", "red", "angry");
 		    printConsumer.accept(list);
 		    
 		    Supplier<Double> doubleSupplier1 = () -> Math.random();
@@ -19,7 +19,7 @@ package AssignmentOnLE;
 		    System.out.println(doubleSupplier1.get());
 		    System.out.println(doubleSupplier2.getAsDouble());
 		    
-		    List<String> names = Arrays.asList("manoj", "sainth", "balraju", "chittibabu", "charan");
+		    List<String> names = Arrays.asList("money", "worth", "value", "respect", "happy");
 		    Predicate<String> nameStartsWithS = str -> str.startsWith("S");
 		    names.stream().filter(nameStartsWithS).forEach(System.out::println);
 		    
