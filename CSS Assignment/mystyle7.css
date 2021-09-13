@@ -1,0 +1,25 @@
+p {
+    border-style: solid;
+    border-width: 5px;
+    background-color: skyblue;
+   }
+   p.select {
+    border-style: solid;
+    border-width: 4px;
+    background-color: skyblue;
+
+
+   }
+   p.err {
+    border-style: solid;
+    border-width: 3px;
+    background-color: skyblue;
+
+   }
+   p.amm{
+       border-width: 3px;
+       border-style: hidden;
+       background-color: skyblue;
+      
+    
+   }
